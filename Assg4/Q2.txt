@@ -1,0 +1,10 @@
+2. int arr[5]={2,8,18,34,5};
+char ch[6]=”abcde”;
+cout<<arr<<endl;
+cout<<ch;
+What output will you get in each line(address is printed or something else)? Why so?
+
+the first line would have the address of arr
+the second line would print abcde. 
+
+cout by default prints the address of the int array and the string in case of char array
