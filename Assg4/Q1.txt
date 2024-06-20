@@ -1,1 +1,11 @@
+int arr[5]={2,8,18,34,5};
+for (int i=0;i<5;i++)
+{
+ cout<<i[arr]<<” ”;
+}
+Will this code show an error or not? Why? 
 
+This code will not show an error. 
+the convention has usually been arr[i], but all that means is the reference to the 
+pointer arr+i and dereferencing it. 
+arr[i] is same as i[arr], both referencing the pointer arr+i
